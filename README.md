@@ -23,3 +23,6 @@ This project implements a minimal shell (`mysh`) in C as part of the CS360 Opera
 
 ```bash
 make
+
+## How to Compile
+./mysh
