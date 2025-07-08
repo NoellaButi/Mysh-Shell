@@ -19,10 +19,20 @@ This project implements a minimal shell (`mysh`) in C as part of the CS360 Opera
 - `mysh.c`: Main C source code
 - `Makefile`: To compile the shell using `make`
 
-## How to Compile
+## Concepts Practiced
+
+- Process creation and management in Unix
+- Executing programs from within a shell
+- System calls: `fork`, `execvp`, `wait`, `getcwd`, `chdir`
+- Simple command parsing and prompt formatting
+
+## Notes
+
+- The shell handles invalid commands gracefully with error messages.
+- Exits cleanly on Ctrl+D or typing exit.
+
+## How to Compile and Run
 
 ```bash
 make
-
-## How to Compile
 ./mysh
